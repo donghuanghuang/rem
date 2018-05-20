@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--声明视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+    <title>rem</title>
+    <style>
+        html{
+            font-size: 16px;
+        }
+        #d1{
+            margin-top: 2.5rem;
+            width: 15rem;
+            height: 15rem;
+            background: #efefef;
+        }
+        #d2{
+            width: 20rem;
+            height: 20rem;
+            background: lightblue;
+            margin-left: 20rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <div id="d2">
+
+        </div>
+    </div>
+    <script>
+        //获取屏幕的宽度，动态计算字体大小
+//        var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+//        console.log(htmlWidth);
+//        var htmlDom = document.getElementsByTagName('html')[0];
+//        htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+    </script>
+</body>
+</html>
